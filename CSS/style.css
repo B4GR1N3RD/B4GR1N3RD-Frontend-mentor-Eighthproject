@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.Main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 95%) ;
+    max-width: 1440px;
+    height: 641px;
+}
+
+.Content{
+    position: absolute;
+    display: flex;
+    width: 840px;
+    height: 421px;
+    border-radius: 07px;
+}
+
+.Column{
+    width: 280px;
+    height:421px ;
+}
+
+#Sedans{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 07px;
+    border-bottom-left-radius: 07px;
+}
+
+#Suvs{
+    background-color:  hsl(184, 100%, 22%);
+}
+
+#Luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 07px;
+    border-bottom-right-radius: 07px;
+}
+
+.Icon{
+    margin: 40px 0px 0px 40px;
+}
+
+.Heading{
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 30px;
+    font-weight:700 ;
+    text-transform: uppercase;
+    margin: 20px 0px 0px 40px;
+    color: hsl(0, 0%, 95%);
+    letter-spacing: 0.75px;
+}
+
+.Info{
+    text-align: left;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    font-weight:300 ;
+    line-height: 25px;
+    margin: 20px 35px 0px 40px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.Button{
+    font-family:"Lexend Deca", sans-serif;
+    font-size:15px ;
+    font-weight:400 ;
+    margin: 55px 30px 0px 40px;
+    padding: 10px 30px 10px 30px;
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 50px;
+    text-align: center;
+    color: transparent;
+    transition: all 0.6s;
+}
+
+#B-01{
+    color: hsl(31, 77%, 52%);
+}
+
+#B-02{
+    color:  hsl(184, 100%, 22%);
+}
+
+#B-03{
+    color:  hsl(179, 100%, 13%);
+}
+
+.Button:hover,#B-01:hover,#B-02:hover,#B-03:hover{
+    transition: all 0.6s;
+    cursor: pointer;
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
+
+footer{
+    text-align: center;
+    line-height: 25px;
+    display: inline-block;
+    position: relative;
+    top: 275px;
+    font-family:"Lexend Deca", sans-serif;
+}
+
+footer a{
+    color: hsl(184, 100%, 22%);
+}
+
+.Attribution{
+    color: hsl(179, 100%, 13%);
+}
